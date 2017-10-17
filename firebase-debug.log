@@ -1,0 +1,64 @@
+[debug] [2017-10-17T06:32:29.119Z] ----------------------------------------------------------------------
+[debug] [2017-10-17T06:32:29.119Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\B.pati\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-10-17T06:32:29.119Z] CLI Version:   3.13.1
+[debug] [2017-10-17T06:32:29.119Z] Platform:      win32
+[debug] [2017-10-17T06:32:29.119Z] Node Version:  v6.10.0
+[debug] [2017-10-17T06:32:29.135Z] Time:          Tue Oct 17 2017 12:02:29 GMT+0530 (India Standard Time)
+[debug] [2017-10-17T06:32:29.135Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-10-17T06:32:29.135Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-10-17T06:32:29.135Z] > authorizing via signed-in user
+[debug] [2017-10-17T06:32:29.150Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-10-17T06:32:29.150Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/yz2ntjtb6NvQz66jTdCIRLy6gUu1EI6T-VQ2ZG_-PB0',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Oct 17 2017 12:02:29 GMT+0530 (India Standard Time)
+[debug] [2017-10-17T06:32:29.618Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-17T06:32:29.634Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/cmf-db  
+ Tue Oct 17 2017 12:02:29 GMT+0530 (India Standard Time)
+[debug] [2017-10-17T06:32:31.912Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-17T06:32:31.912Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/cmf-db/tokens  
+ Tue Oct 17 2017 12:02:31 GMT+0530 (India Standard Time)
+[debug] [2017-10-17T06:32:33.960Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\B.pati\cmf-db'...
+[info] 
+[debug] [2017-10-17T06:32:33.960Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/cmf-db  
+ Tue Oct 17 2017 12:02:33 GMT+0530 (India Standard Time)
+[debug] [2017-10-17T06:32:35.914Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-17T06:32:35.914Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/975447135352/clients/_:getWebAppConfig  
+ Tue Oct 17 2017 12:02:35 GMT+0530 (India Standard Time)
+[debug] [2017-10-17T06:32:36.944Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-10-17T06:49:02.644Z] ----------------------------------------------------------------------
+[debug] [2017-10-17T06:49:02.644Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\B.pati\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-10-17T06:49:02.644Z] CLI Version:   3.13.1
+[debug] [2017-10-17T06:49:02.644Z] Platform:      win32
+[debug] [2017-10-17T06:49:02.644Z] Node Version:  v6.10.0
+[debug] [2017-10-17T06:49:02.644Z] Time:          Tue Oct 17 2017 12:19:02 GMT+0530 (India Standard Time)
+[debug] [2017-10-17T06:49:02.644Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-10-17T06:49:02.675Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-10-17T06:49:02.675Z] > authorizing via signed-in user
+[debug] [2017-10-17T06:49:02.675Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/cmf-db  
+ Tue Oct 17 2017 12:19:02 GMT+0530 (India Standard Time)
+[debug] [2017-10-17T06:49:05.474Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-17T06:49:05.474Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/cmf-db/tokens  
+ Tue Oct 17 2017 12:19:05 GMT+0530 (India Standard Time)
+[debug] [2017-10-17T06:49:07.380Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\B.pati\cmf-db'...
+[info] 
+[debug] [2017-10-17T06:49:07.380Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/cmf-db  
+ Tue Oct 17 2017 12:19:07 GMT+0530 (India Standard Time)
+[debug] [2017-10-17T06:49:09.161Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-17T06:49:09.161Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/975447135352/clients/_:getWebAppConfig  
+ Tue Oct 17 2017 12:19:09 GMT+0530 (India Standard Time)
+[debug] [2017-10-17T06:49:10.097Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+
